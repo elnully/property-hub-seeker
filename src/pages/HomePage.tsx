@@ -20,7 +20,7 @@ import {
   Search, 
   Home, 
   Building, 
-  Buildings, 
+  Building2, 
   BarChart3, 
   MapPin 
 } from 'lucide-react';
@@ -284,7 +284,7 @@ const HomePage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/add-property">
               <Button size="lg" variant="secondary">
-                <Buildings className="mr-2 h-5 w-5" />
+                <Building2 className="mr-2 h-5 w-5" />
                 List Your Property
               </Button>
             </Link>
